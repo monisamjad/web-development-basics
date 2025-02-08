@@ -38,7 +38,29 @@ var b1234 = "Amjad";
 
 
 // Assignment Operator
-// Arthmetic operator
+=
+
+// Arthmetic operator 
+
+= +, -, /, *, % 
+// +=, -=, /=, *=
+
+// Incremental operator 
+++, --
+
+// Relational/Comparison operators
+> Greater than
+>= Greater than and equal to
+< Less than
+<= Less than and equal to
+== Equals to
+!= Not equal to
+
+// Logical
+! -> Not
+&& -> AND
+|| -> OR
+
 
 var a = 5
 a = a + 7 // a = 6 , a += 7
@@ -47,7 +69,7 @@ a = a + 1
 //  is equal to 
 a += 1 
 // is equal to
-a++
+a++ or a += 1 or a = a + 1
 --a
 
 ---
@@ -57,14 +79,12 @@ a -= 1
 a--
 
 
-
+var a = 0, b = 0;
 
 a += 
 
 a *= 5;
 a = a * 5;
-
-
 
 
 if, else, else if, switch
@@ -74,18 +94,11 @@ var age = 1200
 var height = 170
 var weight = 70
 
-// Comparison operators
-> Greater than
->= Greater than and equal to
-< Less than
-<= Less than and equal to
-== Equals to
-!= Not equal to
-! -> Not
-&& -> AND
-|| -> OR
 
-if (age == 20 ) {
+
+
+
+if (age == 20 && weight == 70) {
     if (height == 170 && weight === 70) {
             console.log("condition is met")
     }
@@ -105,8 +118,7 @@ let glassOfWaterToDrink = age > 60 ? 15 : 12; let age = 20;
 
 if (age > 60) {
     glassOfWaterToDrink = 15 
-    age = 20
-    
+    age = 20 
 } else {
     glassOfWaterToDrink = 12;
 }
@@ -141,3 +153,4 @@ Scope of a variable
 
 }
 */
+
